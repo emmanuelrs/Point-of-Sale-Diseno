@@ -35,6 +35,8 @@
 
     <body>
 
+        <form id="form1" runat="server">
+
         <!-- Top content -->
         <div class="top-content">
         	
@@ -45,16 +47,14 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3 form-box">
-                        <form>
-                            <label>Username</label>
-	                        <input name="name"  class="name" required />
-                            <label>Password</label>
-                            <input name="name" class="name" type="password" required />
-                            <input name="submit" class="btn" type="submit" value="Login" />
-                            <input name="submit" class="btn" type="submit" value="Cancel" />
-                        </form>
-		                </div>
+                            &nbsp;<input id="Text1" type="text" /><br />
+&nbsp;
+                            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input id="Text2" type="text" />&nbsp;
+                        </div>
                      </div>
+                    
                  </div>
             </div>
             
@@ -70,6 +70,8 @@
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
+
+        </form>
 
     </body>
 

@@ -107,6 +107,10 @@ img { max-width: 100%; }
 
 .form-box {
 	margin-top: 35px;
+    width: 364px;
+    top: 0px;
+    left: 0px;
+    height: 354px;
 }
 
 .form-top {
@@ -191,8 +195,8 @@ img { max-width: 100%; }
 form {
     margin-left:auto;
     margin-right:auto;
-    width: 353px;
-    height: 333px;
+    width: 653px;
+    height: 633px;
     padding:30px;
     border: 1px solid rgba(0,0,0,.2);
     -moz-border-radius: 5px;
@@ -242,7 +246,38 @@ input.password {
 	  padding-left:45px;
 }
 
+Button {
+    width: 276px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
 
+Button[type=submit] {
+    cursor:pointer;
+}
+
+Button.name {
+	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
+	  padding-left:45px;
+}
+
+Button.password {
+	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
+	  padding-left:45px;
+}
 
 ::-webkit-input-placeholder {
 	  color: #fff;
