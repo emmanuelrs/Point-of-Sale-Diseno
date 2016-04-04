@@ -41,41 +41,20 @@
             <div class="inner-bg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1><strong>Login</strong></h1>
-                            <div class="description">
-                            	<p>
-	                            	Welcome to POSTEC
-                            	</p>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3 form-box">
-                        	<div class="form-top">
-                        		<div class="form-top-left">
-                        			<h3>Login to our site</h3>
-                            		<p>Enter your username and password to log in:</p>
-                        		</div>
-                        		<div class="form-top-right">
-                        			<i class="fa fa-shopping-bag"></i>
-                        		</div>
-                            </div>
-                            <div class="form-bottom">
-			                    <form role="form" action="" method="post" class="login-form">
-			                    	<div class="form-group">
-			                    		<label class="sr-only" for="form-username">Username</label>
-			                        	<input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-password">Password</label>
-			                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
-			                        </div>
-			                        <button type="submit" class="btn">Log in!</button>
-			                    </form>
-		                    </div>
-                        </div>
-                    </div>
+                        <form>
+                            <label>Username</label>
+	                        <input name="name"  class="name" required />
+                            <label>Password</label>
+                            <input name="name" class="name" type="password" required />
+                            <input name="submit" class="btn" type="submit" value="Login" />
+                            <input name="submit" class="btn" type="submit" value="Cancel" />
+                        </form>
+		                </div>
+                     </div>
                  </div>
             </div>
             
